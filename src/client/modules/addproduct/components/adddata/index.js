@@ -75,7 +75,7 @@ class AddProduct extends Component {
           :
           <div>
             <center><h2> {this.state.isedit ? "Edit Product" : "Add Product"} </h2></center>
-            {/* <form onSubmit={handleSubmit(this.onSubmit.bind(this))} className="form-horizontal">
+            <form onSubmit={handleSubmit(this.onSubmit.bind(this))} className="form-horizontal">
               <div className="form-body">
                 <Field
                   name="name"
@@ -105,7 +105,7 @@ class AddProduct extends Component {
               <center><button type="submit" className="btn btn-primary btn-lg btn-block"> {this.state.isedit ? "Edit" : "Add"} </button></center>
 
 
-            </form> */}
+            </form>
           </div>
         }
         {/* {this.state.dataval ?

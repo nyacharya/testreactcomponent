@@ -1,0 +1,129 @@
+{
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true,
+        "jsx": true
+      },
+      "sourceType": "module"
+    },
+      "plugins": [
+      "html",
+      "react",
+      "jsx-a11y"
+    ],
+    "root": true,
+    "rules": {
+      "array-bracket-spacing": [
+        "error",
+        "never"
+      ],
+      "arrow-parens": [
+        "error",
+        "always"
+      ],
+      "arrow-spacing": [
+        "error",
+        {
+          "after": true,
+          "before": true
+        }
+      ],
+      "block-spacing": [
+        "error",
+        "always"
+      ],
+      "brace-style": [
+        "error",
+        "1tbs"
+      ],
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ],
+      "comma-spacing": [
+        "error",
+        {
+          "after": true,
+          "before": false
+        }
+      ],
+      "eol-last": [
+        "error",
+        "always"
+      ],
+      "func-call-spacing": [
+        "error",
+        "never"
+      ],
+      "indent": [
+        "error",
+        2
+      ],
+      "key-spacing": [
+        2
+      ],
+      "keyword-spacing": [
+        "error",
+        {
+          "after": true,
+          "before": true
+        }
+      ],
+      // "linebreak-style": [
+      //   "error",
+      //   "unix"
+      // ],
+      "no-debugger": 2,
+      "no-multi-spaces": 2,
+      "no-multiple-empty-lines": 2,
+      "no-tabs": 2,
+      "no-trailing-spaces": 2,
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "space-infix-ops": 2,
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "sort-imports": [
+        1,
+        {
+          "ignoreCase": true,
+          "ignoreMemberSort": false,
+          "memberSyntaxSortOrder": [
+            "none",
+            "all",
+            "multiple",
+            "single"
+          ]
+        }
+      ],
+      "space-before-blocks": [
+        "error"
+      ],
+      "space-before-function-paren": [
+        "error",
+        "never"
+      ],
+      "space-in-parens": [
+        "error",
+        "never"
+      ],
+      "spaced-comment": [
+        "error",
+        "always"
+      ]
+    }
+  }
