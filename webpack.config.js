@@ -22,7 +22,8 @@ module.exports = {
       }
     ]
   },
+  resolve: { alias: { 'react$': 'react/lib/ReactWithAddons.js', 'react-dom$': 'react/lib/ReactDOM.js' } },
   externals: {
-    'react': 'commonjs react' // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
+    'react': 'react' // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
   }
 };
